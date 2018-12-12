@@ -95,9 +95,6 @@ class RedmineActsAsTaggableOn::Migration < ActsAsTaggableOnMigration
       ['tag_id', 'integer'],
       ['taggable_id', 'integer'],
       ['taggable_type', 'string'],
-      ['tagger_id', 'integer'],
-      ['tagger_type', 'string'],
-      ['context', 'string'],
     ].sort
   end
 
